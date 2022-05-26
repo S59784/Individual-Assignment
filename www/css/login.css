@@ -1,0 +1,21 @@
+body{
+    margin: auto;
+    padding-top: 150px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button{
+    background-color: rgba(252,215,23,255);
+    border-color: rgba(252,215,23,255);
+    border-radius: 12px;
+}

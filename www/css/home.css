@@ -1,0 +1,69 @@
+body{
+    margin: auto;
+}
+
+h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: purple;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+img{
+    width: 200px;
+    height: 220px;
+    border-radius: 12px;
+}
+
+.text-block {
+    position: absolute;
+    background-color: black;
+    color: white;
+}
+
+button{
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    border-radius: 12px;
+}
+
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: grey;
+    position: block;
+    bottom: 0;
+    width: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+  
+.navbar a {
+    color: #f2f2f2;
+    text-align: center;
+    display: inline-block;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+  
+.navbar a:hover {
+    background: #f1f1f1;
+    color: black;
+}
+  
+.navbar a.active {
+    background-color: rgba(252,215,23,255);;
+    color: white;
+}
+
